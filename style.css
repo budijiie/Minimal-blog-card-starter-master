@@ -1,0 +1,88 @@
+:root {
+  --color1-purple: #7c19ee;
+  --color2-pink: #f2eafd;
+  --color3-grey: #e5eaf0;
+  --color4-offwhite: #fafaf9;
+  --color5-white: #fff;
+  --color6-darkblue: #20293a;
+  --color7-darkgrey: #394150;
+
+  --fontTitle: 1.125rem;
+  --fontBody: 0.875rem;
+  --fontSmallText: 0.75rem;
+  --fontTag: 0.625rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Sora", sans-serif;
+
+  background-color: var(--color4-offwhite);
+}
+
+.card {
+  max-width: 352px;
+  background-color: var(--color5-white);
+  margin: 164px auto 1px auto;
+  padding: 16px 16px 20px 16px;
+  border-radius: 14px 14px 0 0;
+  box-shadow: 8px 8px 20px 0px rgb(32, 41, 58, 0.2);
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.small_text {
+  font-size: var(--fontSmallText);
+  color: var(--color1-purple);
+  background-color: var(--color2-pink);
+  width: fit-content;
+  padding: 6px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: var(--fontTitle);
+  margin-bottom: 6px;
+  color: var(--color6-darkblue);
+}
+
+.description {
+  font-size: var(--fontBody);
+  color: var(--color7-darkgrey);
+}
+
+.card_tag {
+  max-width: 352px;
+  background-color: var(--color5-white);
+  margin: 0 auto;
+  padding: 20px 16px;
+  border-radius: 0 0 14px 14px;
+  box-shadow: 8px 8px 20px 0px rgb(32, 41, 58, 0.2);
+}
+
+.tag {
+  font-size: var(--fontSmallText);
+  color: var(--color7-darkgrey);
+}
+
+.author-info {
+  font-size: var(--fontBody);
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
